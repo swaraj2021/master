@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 80, Failures: 1, Errors: 0, Skipped: 79, Time elapsed: 18.689 sec <<< FAILURE! - in TestSuite
+friendrequest_base(facebook_TC.Send_FriendRequest)  Time elapsed: 17.968 sec  <<< FAILURE!
+java.io.FileNotFoundException: D:\workspace\Indonesia_Hutch\src\test\java\Config\config.properties (The device is not ready)
+	at facebook_TC.Send_FriendRequest.friendrequest_base(Send_FriendRequest.java:19)
+

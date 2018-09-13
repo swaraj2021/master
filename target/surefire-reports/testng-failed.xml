@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="facebook_TC.chat_Select">
+        <methods>
+          <include name="chat_select"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- facebook_TC.chat_Select -->
+      <class name="facebook_TC.chat_Notification_Check">
+        <methods>
+          <include name="chat_notification_check"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- facebook_TC.chat_Notification_Check -->
+      <class name="facebook_TC.Logout">
+        <methods>
+          <include name="logout"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- facebook_TC.Logout -->
+      <class name="facebook_TC.newsFeed_FB">
+        <methods>
+          <include name="invalid_option2_FB"/>
+          <include name="newsfeed_select_FB"/>
+          <include name="invalid_option3_FB"/>
+          <include name="invalid_option1_FB"/>
+          <include name="invalid_option4_FB"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- facebook_TC.newsFeed_FB -->
+      <class name="facebook_TC.wallpost_FB">
+        <methods>
+          <include name="postonwall_FB"/>
+          <include name="post_special_char1_FB"/>
+          <include name="postonwall_nofriend_FB"/>
+          <include name="post_num_FB"/>
+          <include name="endTest"/>
+          <include name="post_special_char2_FB"/>
+        </methods>
+      </class> <!-- facebook_TC.wallpost_FB -->
+      <class name="facebook_TC.Pending_FriendRequest_FB">
+        <methods>
+          <include name="pending_friendrequest_FB"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- facebook_TC.Pending_FriendRequest_FB -->
+      <class name="facebook_TC.facebook_settings">
+        <methods>
+          <include name="notif_settings"/>
+          <include name="notif_settings_3"/>
+          <include name="endTest"/>
+          <include name="notif_settings_2"/>
+        </methods>
+      </class> <!-- facebook_TC.facebook_settings -->
+      <class name="facebook_TC.Send_FriendRequest">
+        <methods>
+          <include name="pending_friendrequest_home"/>
+          <include name="pending_friendrequest_home2"/>
+          <include name="pending_friendrequest"/>
+          <include name="pending_friendrequest_samescreen1"/>
+          <include name="endTest"/>
+          <include name="friendrequest_base"/>
+        </methods>
+      </class> <!-- facebook_TC.Send_FriendRequest -->
+      <class name="facebook_TC.Login">
+        <methods>
+          <include name="login"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- facebook_TC.Login -->
+      <class name="facebook_TC.notification_FB">
+        <methods>
+          <include name="notif_select_FB"/>
+          <include name="notif_invalidinput2_FB"/>
+          <include name="notif_invalidinput3_FB"/>
+          <include name="endTest"/>
+          <include name="notif_invalidinput1_FB"/>
+        </methods>
+      </class> <!-- facebook_TC.notification_FB -->
+      <class name="facebook_TC.chat_Reply">
+        <methods>
+          <include name="chat_reply"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- facebook_TC.chat_Reply -->
+      <class name="facebook_TC.chat_SendMsg">
+        <methods>
+          <include name="chat_home"/>
+          <include name="endTest"/>
+          <include name="chat_sendMsg"/>
+        </methods>
+      </class> <!-- facebook_TC.chat_SendMsg -->
+      <class name="facebook_TC.chat_SendingMsg">
+        <methods>
+          <include name="sendMsg"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- facebook_TC.chat_SendingMsg -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
